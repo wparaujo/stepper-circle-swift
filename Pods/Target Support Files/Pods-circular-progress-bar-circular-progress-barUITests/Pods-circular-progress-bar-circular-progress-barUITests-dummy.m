@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_circular_progress_bar_circular_progress_barUITests : NSObject
+@end
+@implementation PodsDummy_Pods_circular_progress_bar_circular_progress_barUITests
+@end

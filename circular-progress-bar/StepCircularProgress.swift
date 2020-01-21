@@ -8,9 +8,45 @@
 
 import UIKit
 
+class StepperCircle {
+    
+    var scenes: [UIViewController]
+    var view = StepCircularProgress()
+    
+    init(scenes: [UIViewController]) {
+        self.scenes = scenes
+    }
+    
+    private func isFirstStep() -> Bool {
+        guard view.step == 0 else { return  false }
+        return true
+    }
+    
+    private func isLastStep() -> Bool {
+        guard view.step == scenes.count - 1 else { return false }
+        return true
+    }
+    
+    func backStep() {
+        let isNotFirstStep = !isFirstStep()
+        guard isNotFirstStep else { return }
+        let currentProgress = view.step
+        view.step = currentProgress - 1
+    }
+    
+    func goToNextStep() {
+        let isNotLastStep = !isLastStep()
+        guard isNotLastStep else { return }
+        let currentProgress = view.step
+        view.step = currentProgress + 1
+    }
+}
+
+
+
 class StepCircularProgress: UIView {
     
-    public var progress: Int = 0 {
+    public var step: Int = 0 {
         didSet {
             // call action
         }

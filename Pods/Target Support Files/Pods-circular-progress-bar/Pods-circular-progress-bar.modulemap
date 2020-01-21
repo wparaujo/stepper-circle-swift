@@ -1,0 +1,6 @@
+framework module Pods_circular_progress_bar {
+  umbrella header "Pods-circular-progress-bar-umbrella.h"
+
+  export *
+  module * { export * }
+}
