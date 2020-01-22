@@ -13,10 +13,11 @@
 		047C778823D73BC400243862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047C778623D73BC400243862 /* Main.storyboard */; };
 		047C778A23D73BC600243862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C778923D73BC600243862 /* Assets.xcassets */; };
 		047C778D23D73BC600243862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047C778B23D73BC600243862 /* LaunchScreen.storyboard */; };
-		047C779823D73BC600243862 /* circular_progress_barTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C779723D73BC600243862 /* circular_progress_barTests.swift */; };
+		047C779823D73BC600243862 /* StepperCircleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C779723D73BC600243862 /* StepperCircleViewTests.swift */; };
 		047C77A323D73BC600243862 /* circular_progress_barUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C77A223D73BC600243862 /* circular_progress_barUITests.swift */; };
-		047C77B323D73C3100243862 /* StepCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C77B223D73C3100243862 /* StepCircularProgress.swift */; };
-		047C77B423D767FF00243862 /* StepCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C77B223D73C3100243862 /* StepCircularProgress.swift */; };
+		047C77B323D73C3100243862 /* StepperCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C77B223D73C3100243862 /* StepperCircleView.swift */; };
+		047C77BC23D8822B00243862 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C77BB23D8822B00243862 /* Header.swift */; };
+		047C77C123D8910600243862 /* StepperCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C77B223D73C3100243862 /* StepperCircleView.swift */; };
 		0E1B7B28288D267F3CDE0317 /* Pods_circular_progress_bar_circular_progress_barUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D826BEB939A9003BC489F86D /* Pods_circular_progress_bar_circular_progress_barUITests.framework */; };
 		4A8E30EDEBCCE1BBDFD8297C /* Pods_circular_progress_bar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBCCE73B250F5D12A6E9A1E /* Pods_circular_progress_bar.framework */; };
 		BC9FF18F9A01C51D668B3EB3 /* Pods_circular_progress_barTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654E9367ECDB65EFABFCF025 /* Pods_circular_progress_barTests.framework */; };
@@ -49,12 +50,13 @@
 		047C778C23D73BC600243862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047C778E23D73BC600243862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047C779323D73BC600243862 /* circular-progress-barTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "circular-progress-barTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		047C779723D73BC600243862 /* circular_progress_barTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circular_progress_barTests.swift; sourceTree = "<group>"; };
+		047C779723D73BC600243862 /* StepperCircleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCircleViewTests.swift; sourceTree = "<group>"; };
 		047C779923D73BC600243862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047C779E23D73BC600243862 /* circular-progress-barUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "circular-progress-barUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047C77A223D73BC600243862 /* circular_progress_barUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circular_progress_barUITests.swift; sourceTree = "<group>"; };
 		047C77A423D73BC600243862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		047C77B223D73C3100243862 /* StepCircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCircularProgress.swift; sourceTree = "<group>"; };
+		047C77B223D73C3100243862 /* StepperCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCircleView.swift; sourceTree = "<group>"; };
+		047C77BB23D8822B00243862 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		04F25500C36069D4C98A880B /* Pods-circular-progress-bar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circular-progress-bar.debug.xcconfig"; path = "Target Support Files/Pods-circular-progress-bar/Pods-circular-progress-bar.debug.xcconfig"; sourceTree = "<group>"; };
 		654E9367ECDB65EFABFCF025 /* Pods_circular_progress_barTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_circular_progress_barTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AA0CFEFC88A9ECE49E4C85 /* Pods-circular-progress-barTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circular-progress-barTests.debug.xcconfig"; path = "Target Support Files/Pods-circular-progress-barTests/Pods-circular-progress-barTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,7 +128,8 @@
 				047C778923D73BC600243862 /* Assets.xcassets */,
 				047C778B23D73BC600243862 /* LaunchScreen.storyboard */,
 				047C778E23D73BC600243862 /* Info.plist */,
-				047C77B223D73C3100243862 /* StepCircularProgress.swift */,
+				047C77B223D73C3100243862 /* StepperCircleView.swift */,
+				047C77BB23D8822B00243862 /* Header.swift */,
 			);
 			path = "circular-progress-bar";
 			sourceTree = "<group>";
@@ -134,7 +137,7 @@
 		047C779623D73BC600243862 /* circular-progress-barTests */ = {
 			isa = PBXGroup;
 			children = (
-				047C779723D73BC600243862 /* circular_progress_barTests.swift */,
+				047C779723D73BC600243862 /* StepperCircleViewTests.swift */,
 				047C779923D73BC600243862 /* Info.plist */,
 			);
 			path = "circular-progress-barTests";
@@ -183,6 +186,7 @@
 				047C777923D73BC400243862 /* Sources */,
 				047C777A23D73BC400243862 /* Frameworks */,
 				047C777B23D73BC400243862 /* Resources */,
+				E294B1418A9A8C14FE4B95E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,6 +408,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E294B1418A9A8C14FE4B95E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-circular-progress-bar/Pods-circular-progress-bar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-circular-progress-bar/Pods-circular-progress-bar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-circular-progress-bar/Pods-circular-progress-bar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -411,10 +432,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047C77BC23D8822B00243862 /* Header.swift in Sources */,
 				047C778523D73BC400243862 /* ViewController.swift in Sources */,
 				047C778123D73BC400243862 /* AppDelegate.swift in Sources */,
 				047C778323D73BC400243862 /* SceneDelegate.swift in Sources */,
-				047C77B323D73C3100243862 /* StepCircularProgress.swift in Sources */,
+				047C77B323D73C3100243862 /* StepperCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +444,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047C779823D73BC600243862 /* circular_progress_barTests.swift in Sources */,
-				047C77B423D767FF00243862 /* StepCircularProgress.swift in Sources */,
+				047C77C123D8910600243862 /* StepperCircleView.swift in Sources */,
+				047C779823D73BC600243862 /* StepperCircleViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

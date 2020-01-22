@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-circular-progress-bar-circular-progress-barUITests/Pods-circular-progress-bar-circular-progress-barUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework
 ${BUILT_PRODUCTS_DIR}/Quick/Quick.framework

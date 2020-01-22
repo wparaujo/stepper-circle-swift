@@ -6,6 +6,7 @@ target 'circular-progress-bar' do
   use_frameworks!
 
   # Pods for circular-progress-bar
+  pod 'SnapKit'
 
   target 'circular-progress-barTests' do
     inherit! :search_paths
